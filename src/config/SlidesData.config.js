@@ -27,7 +27,7 @@ const Slides = {
         innerHtml: 'Node drag & drop'
     }, {
         title: '4',
-        innerHtml: 'Color Picker <code>Accesibility</code>'
+        innerHtml: 'Color Picker <br /><code>Accesibility</code>'
     }, {
         title: '5',
         innerHtml: 'Accesibility tab'
