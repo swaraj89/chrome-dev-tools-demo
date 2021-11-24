@@ -22,10 +22,16 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
 }
 
 .highlight {
   color: #61dafb;
+  font-size: smaller;
+}
+
+img{
+  margin-top: 50px; 
 }
 
 @keyframes App-logo-spin {
@@ -45,6 +51,40 @@ body {
   display: none;
 }
 
-#impress div.step {
+/* #impress div.step {
   width: 500px;
+} */
+
+code {
+  font-size: x-large;
+}
+
+ul li {
+  list-style: none;
+  margin: 0px;
+  font-size: x-large;
+}
+
+.step {
+  width: 700px;
+  height: 500px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.warn{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  font-size: xx-small;
+  display: none;
+}
+
+@media only screen and (min-width: 976px) {
+  p.warn {
+    display: block;
+  }
 }
